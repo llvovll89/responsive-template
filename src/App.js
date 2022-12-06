@@ -21,15 +21,13 @@ function App() {
   return (
     <>
       <Router basename={process.env.PUBLIC_URL}>
-        <Header />
-        <Routes>
+      <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/project" element={<Project />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
       </Router>
     </>
   );
