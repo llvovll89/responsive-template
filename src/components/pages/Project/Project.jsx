@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Project.css';
 import { useState } from 'react';
 import { projects } from '../../data/dummy';

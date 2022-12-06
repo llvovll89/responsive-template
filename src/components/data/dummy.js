@@ -129,42 +129,42 @@ export const project = [
 export const projects = [
   {
     id: 1,
-    cover: '../images/project-img/project0.png',
+    cover: '../../../public/images/project-img/project0.png',
     name: '나의 연애 유형',
     category: 'Couple',
     title: '연애Test',
   },
   {
     id: 2,
-    cover: '../images/project-img/project1.PNG',
+    cover: '../../../public/images/project-img/project1.PNG',
     name: 'Brand',
     category: 'design',
     title: 'Brex Logo',
   },
   {
     id: 3,
-    cover: '../images/project-img/project2.PNG',
+    cover: '../../../public/images/project-img/project2.PNG',
     name: 'Brand',
     category: 'development',
     title: 'Brex Logo',
   },
   {
     id: 4,
-    cover: '../images/project-img/project3.png',
+    cover: '../../../public/images/project-img/project3.png',
     name: 'Brand',
     category: 'marketing',
     title: 'Brex Logo',
   },
   {
     id: 5,
-    cover: '../images/project-img/project4.png',
+    cover: '../../../public/images/project-img/project4.png',
     name: 'Brand',
     category: 'design',
     title: 'Brex Logo',
   },
   {
     id: 6,
-    cover: '../images/project-img/project5.png',
+    cover: '../../../public/images/project-img/project5.png',
     name: 'Brand',
     category: 'development',
     title: 'Brex Logo',
@@ -200,7 +200,7 @@ export const blog = [
     date: 'Jun 27, 2022',
     author: 'Dorian Gray',
     desc: 'Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been',
-    cover: '../images/project-img/project0.png',
+    cover: '../../../public/images/project-img/project0.png',
   },
   {
     id: 2,
@@ -208,7 +208,7 @@ export const blog = [
     date: 'Jun 27, 2022',
     author: 'Dorian Gray',
     desc: 'Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been',
-    cover: '../images/project-img/project1.png',
+    cover: '../../../public/images/project-img/project1.PNG',
   },
   {
     id: 3,
@@ -216,7 +216,7 @@ export const blog = [
     date: 'Jun 27, 2022',
     author: 'Dorian Gray',
     desc: 'Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been',
-    cover: '../images/project-img/project2.png',
+    cover: '../../../public/images/project-img/project5.PNG',
   },
 ];
 export const contact = [

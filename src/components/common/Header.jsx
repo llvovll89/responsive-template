@@ -13,7 +13,7 @@ export const Header = () => {
     <>
       <header>
         <div className="header-container container flex">
-          <div className="logo"><img src={logo} alt=".." data-aos='zoom-in-right'/></div>
+          <div className="logo"><img src={logo} alt=".." /></div>
           <div className={moblie ? "hide-navber" : "navbar"}>
               {navlink.map((link) => (
                 <Link to={link.url} key={uuid()} data-aos='zoom-in-left'>  
