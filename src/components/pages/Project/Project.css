@@ -1,0 +1,102 @@
+.project {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.project-content {
+    padding: 0 1.5rem;
+}
+
+.project-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.project-btn{
+    position: relative;
+    padding: 1rem 1.6rem;
+    margin: 0 0.3rem;
+    background: salmon;
+    font-size: 1.1rem;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s linear;
+}
+
+.project-btn:hover {
+    transition: 0.5s linear;
+    background: transparent;
+}
+
+.project-img {
+    width: 100%;
+    height: 300px;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-box {
+    position: relative;
+    transition: 0.5s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+    color: #fff;
+}
+
+.overlay h3 , span , svg {
+    font-size: 1.4rem;
+}
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .33);
+    opacity: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.project .project-box:hover .overlay::after,
+.project .project-box:hover .overlay {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .project-content {
+        grid-template-columns: 1fr;
+    }
+    .project-btn {
+        font-size: 0.9rem;
+        padding: 0.85rem 1.1rem;
+    }
+    .project-category {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1rem;
+        margin: 25px auto;
+    }
+}

@@ -1,0 +1,71 @@
+header {
+    background: rgb(239, 239, 218);
+    height: 10vh;
+    line-height: 10vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: var(--lIndex);
+}
+
+header a {
+    margin-left: 40px;
+}
+
+header .logo {
+    width: 42px;
+    height: 100%;
+}
+
+.toggle {
+    margin-top: 7%;
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .33);
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 7vh;
+        line-height: 7vh;
+        box-shadow: 0 2px 2px rgba(255, 255, 255, .33);
+    }
+
+    header .header-container {
+        max-width: 90%;
+    }
+    header .navbar {
+        display: none;
+    }
+    header a {
+        display: block;
+        width: 100%;
+        color: #fff;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .toggle {
+        display: block;
+        background: none;
+        font-size: 25px;
+        margin-top: 3.5%;
+    }
+
+    .hide-navber {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, .33);
+        z-index: 100;
+        transition: 0.5s linear;
+    }
+}

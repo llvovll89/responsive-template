@@ -1,0 +1,15 @@
+.counter {
+    margin-top: 80px;
+    position: relative;
+}
+
+.hero.counter::after {
+    height: 50vh;
+    background-image: url(../../../../public/images/counter-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.counter h1 {
+    margin: 0;
+}

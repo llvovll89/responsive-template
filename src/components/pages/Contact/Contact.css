@@ -1,0 +1,81 @@
+.contact {
+    margin: 20px 0;
+    padding: 2rem 0;
+    background: #181818;
+    color: #fff;
+}
+
+.contact .contact-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact-right,
+.contact .contact-left {
+    padding: 20px;
+}
+
+.contact-left {
+    width: 35%;
+}
+
+.contact-right {
+    width: 65%;
+}
+
+.contact .ritht-box input:nth-child(1) {
+    margin-right: 10px;
+    display: flex;
+}
+
+.contact button,
+.contact textarea,
+.contact input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.contact input {
+    border-bottom: 1.5px solid skyblue;
+}
+
+.contact textarea {
+    resize: none;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        max-width: 90%;
+    }
+    .contact .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-box {
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 0.4rem 0.3rem;
+        border-radius: 8px;
+    }
+
+    .contact-box p{
+        margin: 6px 0;
+        font-size: 0.9rem;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+    }
+    
+    .contact-left {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 0.5rem;
+    }
+}

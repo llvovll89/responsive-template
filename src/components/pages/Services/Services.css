@@ -1,0 +1,37 @@
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.services-content .box {
+    padding: 2.5rem;
+    background: #2d2e2e;
+    color: #fff;
+}
+
+.services-content .box h3 , i {
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .services {
+        height: 100%;
+        padding: 2rem 0;
+    }
+    .services-content {
+        grid-template-columns:  repeat(2, 1fr);
+    }
+    .services-content  .box {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .services-content {
+        grid-template-columns: 1fr;
+    }
+    .services-content .box {
+        padding: 2rem;
+    }
+}

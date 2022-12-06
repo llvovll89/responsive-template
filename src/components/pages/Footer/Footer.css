@@ -1,0 +1,19 @@
+.footer {
+    text-align: center;
+    background-color: #181818;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer i {
+    margin: 5px;
+    color: var(--pmColor);
+    cursor: pointer;
+}
+
+.footer p {
+    width: max-content;
+    margin: 6px auto;
+    font-size: 1.1rem;
+    color: #fff;
+}
