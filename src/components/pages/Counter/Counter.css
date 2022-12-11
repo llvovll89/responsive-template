@@ -13,3 +13,9 @@
 .counter h1 {
     margin: 0;
 }
+
+@media screen and (max-width:768px) {
+    .counter-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

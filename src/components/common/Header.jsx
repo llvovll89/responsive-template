@@ -16,7 +16,7 @@ export const Header = () => {
           <div className="logo"><img src={logo} alt=".." /></div>
           <div className={moblie ? "hide-navber" : "navbar"}>
               {navlink.map((link) => (
-                <Link to={link.url} key={uuid()} data-aos='zoom-in-left'>  
+                <Link to={link.url} key={uuid()}>  
                     {link.text}
                 </Link>
               ))}

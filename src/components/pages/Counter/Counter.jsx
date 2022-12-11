@@ -7,7 +7,7 @@ export const Counter = () => {
   return (
     <>
       <div className="hero counter">
-        <div className="container grid3 grid4">
+        <div className="counter-container container grid3 grid4">
           {project.map((item) => (
             <div className="box" key={uuid()} data-aos="zoom-in"> 
               <i>{item.icon}</i>
